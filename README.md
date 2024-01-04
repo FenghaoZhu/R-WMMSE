@@ -17,7 +17,7 @@ find_X.m : The function for finding the X in each iteration of the R-WMMSE algor
 sumrate.m : The function for computing the sum rate in the R-WMMSE algorithm.  
 Test_WMMSE.m : This is a function used to test WMMSE performance, enter the required parameters and the function would return the number of iterations, running time and sum rate information  
 
-Test.m : This script is used to access the performance gap between the two algorithms WMMSE and R-WMMSE. The indicators include running time, number of iterations and final sum rate. Currently this script only supports the simulation scenario of a single base station.  
+Test.m : This script is used to assess the performance gap between the two algorithms WMMSE and R-WMMSE. The indicators include running time, number of iterations and final sum rate. Currently this script only supports the simulation scenario of a single base station.  
 figs : The folder that stores the results in different scenario configurations.  
 # Result
 Run Test.m in matlab and get the following figures, one for running time and the other for sum rate:  
@@ -25,11 +25,11 @@ Run Test.m in matlab and get the following figures, one for running time and the
 ![Sum rate comparison](/figs/result2.png)  
 
 # Computer specs：
-CPU : 13600K (5.3 GHz, 6 Performance-cores, 8 Efficient-cores)  
-Motherboard : ASUS PRIME Z790-P
-DRAM : 64G DDR5 6000MHz (KINGBANK)  
-Disk : 2T (SHPP41-2000GM)  
-GPU : NVIDIA Geforce RTX 4070    
-OS : Windows 11 Pro (23H2)  
-MATLAB Version : R2023a  
+CPU : 13600K (5.3 GHz, 6 Performance-cores, 8 Efficient-cores)    
+Motherboard : ASUS PRIME Z790-P    
+DRAM : 64G DDR5 6000MHz (KINGBANK)     
+Disk : 2T (SHPP41-2000GM)    
+GPU : NVIDIA Geforce RTX 4070      
+OS : Windows 11 Pro (23H2)    
+MATLAB Version : R2023a    
 
