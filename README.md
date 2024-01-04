@@ -3,8 +3,8 @@ This is the code implementation for the R-WMMSE algorithm.
 CLick here for the original paper link:  
 [Rethinking WMMSE: Can Its Complexity Scale Linearly With the Number of BS Antennas?](https://ieeexplore.ieee.org/document/10054084/)  
 # Code Introduction
-WMMSE.m : The main function for [the WMMSE algorithm](https://ieeexplore.ieee.org/document/5756489/).  
-R-WMMSE.m : The main function for [the R-WMMSE algorithm](https://ieeexplore.ieee.org/document/10054084/).    
+WMMSE.m : The main function for the [WMMSE algorithm](https://ieeexplore.ieee.org/document/5756489/).  
+R-WMMSE.m : The main function for the [R-WMMSE algorithm](https://ieeexplore.ieee.org/document/10054084/).    
 find_U1.m : The function for finding the U in each iteration of the WMMSE algorithm.  
 find_W1.m : The function for finding the W in each iteration of the WMMSE algorithm.  
 find_V1.m : The function for finding the V in each iteration of the WMMSE algorithm.  
